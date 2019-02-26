@@ -13,6 +13,12 @@ publickeyfile="$HOME/.ssh/name_of_the_public_key_file_in_this_dir.pub"
 aws ec2 import-key-pair --region ap-southeast-1 --key-name "$keyname" --public-key-material "file://$publickeyfile"
 </pre>
 
+Make changes on these files:
+
+- terraform.tfvars
+- prefix.tf
+- variables.tf (if necessary)
+
 Then, run terraform command:
 
 <pre>
