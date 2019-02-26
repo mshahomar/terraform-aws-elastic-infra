@@ -1,0 +1,8 @@
+AWS_REGION = "ap-southeast-1"
+ENV_TAG = "production"
+CIDR_BLOCK = "10.11.0.0/16"
+AZ_A = "ap-southeast-1a"
+AZ_B = "ap-southeast-1b"
+AZ_C = "ap-southeast-1c"
+BASTION_SG = "sg-XXXXXX"
+WEBSRV_INSTANCE_TYPE = "t2.micro"
